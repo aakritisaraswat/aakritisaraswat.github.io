@@ -2,28 +2,28 @@
 <html lang="en">
 <head>
   <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QZESRWFVDP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-QZESRWFVDP');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HTQKW085B0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HTQKW085B0');
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Teaching | Neha Betai</title>
+  <title>Teaching | Aakriti Saraswat</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --ink:    #1a1a2e;
-      --muted:  #5a5a72;
-      --accent: #c0392b;
-      --rule:   #dddde8;
-      --bg:     #faf9f7;
-      --card:   #ffffff;
-      --max:    760px;
+      --ink:     #1a1a2e;
+      --muted:   #5a5a72;
+      --accent:  #c0392b;
+      --rule:    #dddde8;
+      --bg:      #faf9f7;
+      --card:    #ffffff;
+      --max:     760px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: 'Source Sans 3', sans-serif; font-size: 17px; line-height: 1.7; color: var(--ink); background: var(--bg); }
@@ -48,6 +48,22 @@
     .course-role { font-size: 0.85rem; color: var(--muted); margin-top: 0.1rem; }
     .course-year { font-size: 0.82rem; color: var(--muted); white-space: nowrap; margin-left: 1rem; }
 
+    /* Evaluation Table Styles */
+    .table-wrapper { width: 100%; overflow-x: auto; margin-top: 1rem; margin-bottom: 0.8rem; border: 1px solid var(--rule); border-radius: 4px; background: var(--card); }
+    .eval-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; text-align: left; }
+    .eval-table th { font-family: 'Source Sans 3', sans-serif; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); background: rgba(250,249,247,0.6); padding: 0.8rem 1rem; border-bottom: 2px solid var(--rule); }
+    .eval-table td { padding: 0.8rem 1rem; border-bottom: 1px solid var(--rule); vertical-align: middle; color: var(--ink); }
+    .eval-table tr:last-child td { border-bottom: none; }
+    .eval-table .metric-cell { text-align: center; white-space: nowrap; font-size: 0.85rem; line-height: 1.4; }
+    .eval-table .meta-row td { background: rgba(250,249,247,0.3); font-weight: 600; font-size: 0.85rem; }
+    .table-notes { font-size: 0.8rem; color: var(--muted); line-height: 1.5; margin-bottom: 2rem; }
+
+    /* Feedback Quotes Styles */
+    .feedback-category { font-family: 'Lora', serif; font-size: 1rem; font-weight: 600; color: var(--ink); margin-top: 1.5rem; margin-bottom: 0.8rem; }
+    .feedback-list { display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 1.5rem; }
+    .quote-card { background: var(--card); border: 1px solid var(--rule); border-left: 3px solid var(--accent); padding: 0.9rem 1.2rem; border-radius: 0 4px 4px 0; font-size: 0.9rem; line-height: 1.6; color: var(--ink); }
+    .quote-term { font-size: 0.78rem; font-weight: 600; color: var(--muted); margin-top: 0.4rem; text-align: right; }
+
     footer { border-top: 1px solid var(--rule); text-align: center; padding: 2rem; font-size: 0.8rem; color: var(--muted); margin-top: 4rem; }
 
     @media (max-width: 600px) { .nav-links { gap: 1.2rem; } }
@@ -56,7 +72,7 @@
 <body>
 <nav>
   <div class="nav-inner">
-    <a class="nav-name" href="index.html">Neha Betai</a>
+    <a class="nav-name" href="index.html">Aakriti Saraswat</a>
     <ul class="nav-links">
       <li><a href="research.html">Research</a></li>
       <li><a href="teaching.html" class="active">Teaching</a></li>
@@ -68,67 +84,177 @@
 <div class="page">
   <h1 class="page-title">Teaching</h1>
 
-  <p class="sub-label">Instructor on Record</p>
+  <p class="sub-label">Instructor / Teaching Fellow</p>
   <div class="teaching-grid">
     <div class="course">
       <div>
-        <div class="course-name">Principles of Economics I</div>
-        <div class="course-role">George Washington University</div>
+        <div class="course-name">Principles of Microeconomics</div>
+        <div class="course-role">Fordham University</div>
       </div>
-      <div class="course-year">Summer 2024</div>
+      <div class="course-year">2023&ndash;2025</div>
     </div>
     <div class="course">
       <div>
-        <div class="course-name">Macroeconomics &amp; Global Politics</div>
-        <div class="course-role">CTY Johns Hopkins University</div>
+        <div class="course-name">Mathematics of Competitive Behavior (Game Theory)</div>
+        <div class="course-role">Johns Hopkins University</div>
       </div>
-      <div class="course-year">Summer 2022</div>
+      <div class="course-year">2023</div>
+    </div>
+    <div class="course">
+      <div>
+        <div class="course-name">Introductory Microeconomics &amp; Macroeconomics</div>
+        <div class="course-role">University of Delhi</div>
+      </div>
+      <div class="course-year">2018&ndash;2019</div>
     </div>
   </div>
 
-  <p class="sub-label">Teaching Assistant</p>
+  <p class="sub-label">Teaching Assistant &amp; Academic Associate</p>
   <div class="teaching-grid">
     <div class="course">
       <div>
-        <div class="course-name">Principles of Economics I</div>
-        <div class="course-role">George Washington University</div>
+        <div class="course-name">Mathematical Methods in Economics II (Ph.D. Level)</div>
+        <div class="course-role">Fordham University</div>
       </div>
-      <div class="course-year">Fall 2021, Spring 2022, Fall 2024, Fall 2025</div>
-    </div>
-    <div class="course">
-      <div>
-        <div class="course-name">Survey of International Economics</div>
-        <div class="course-role">George Washington University</div>
-      </div>
-      <div class="course-year">Spring 2024, Spring 2025, Spring 2026</div>
-    </div>
-    <div class="course">
-      <div>
-        <div class="course-name">International Economics</div>
-        <div class="course-role">George Washington University</div>
-      </div>
-      <div class="course-year">Fall 2022, Spring 2023</div>
-    </div>
-    <div class="course">
-      <div>
-        <div class="course-name">International Trade</div>
-        <div class="course-role">George Washington University</div>
-      </div>
-      <div class="course-year">Fall 2023</div>
+      <div class="course-year">2022</div>
     </div>
     <div class="course">
       <div>
         <div class="course-name">Managerial Economics</div>
-        <div class="course-role">IIM Bangalore</div>
+        <div class="course-role">Indian Institute of Management Bangalore</div>
       </div>
-      <div class="course-year">2020&ndash;2021</div>
+      <div class="course-year">2019&ndash;2021</div>
+    </div>
+    <div class="course">
+      <div>
+        <div class="course-name">Microeconomics, Macroeconomics, Econometrics &amp; Statistics</div>
+        <div class="course-role">Fordham University (Tutor)</div>
+      </div>
+      <div class="course-year">2021&ndash;2023</div>
+    </div>
+  </div>
+
+  <p class="sub-label">Summary of Student Evaluations (Principles of Microeconomics, Scale 1–9)</p>
+  <div class="table-wrapper">
+    <table class="eval-table">
+      <thead>
+        <tr>
+          <th>Evaluation Item</th>
+          <th style="text-align: center;">Fall 2023</th>
+          <th style="text-align: center;">Fall 2024</th>
+          <th style="text-align: center;">Spring 2025</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Class materials were well prepared and carefully explained</td>
+          <td class="metric-cell">A: 7.6<br>M: 8</td>
+          <td class="metric-cell">A: 8.0<br>M: 9</td>
+          <td class="metric-cell">A: 8.26<br>M: 8.9</td>
+        </tr>
+        <tr>
+          <td>Instructor gave presentations that facilitated taking notes</td>
+          <td class="metric-cell">A: 7.7<br>M: 8</td>
+          <td class="metric-cell">A: 8.5<br>M: 9</td>
+          <td class="metric-cell">A: 8.26<br>M: 8.9</td>
+        </tr>
+        <tr>
+          <td>Instructors made students feel welcome in seeking help/advice in or outside of class</td>
+          <td class="metric-cell">A: 7.0<br>M: 7</td>
+          <td class="metric-cell">A: 7.6<br>M: 8</td>
+          <td class="metric-cell">A: 8.25<br>M: 8.9</td>
+        </tr>
+        <tr>
+          <td>Methods of evaluating student work were fair and appropriate</td>
+          <td class="metric-cell">A: 7.7<br>M: 8</td>
+          <td class="metric-cell">A: 8.1<br>M: 9</td>
+          <td class="metric-cell">A: 8.54<br>M: 8.9</td>
+        </tr>
+        <tr>
+          <td>Examinations/graded materials tested class content as emphasized by the instructor</td>
+          <td class="metric-cell">A: 7.8<br>M: 8</td>
+          <td class="metric-cell">A: 8.4<br>M: 9</td>
+          <td class="metric-cell">A: 8.54<br>M: 8.9</td>
+        </tr>
+        <tr>
+          <td>Students were encouraged to participate in class discussions</td>
+          <td class="metric-cell">A: 7.1<br>M: 7</td>
+          <td class="metric-cell">A: 8.4<br>M: 9</td>
+          <td class="metric-cell">A: 8.65<br>M: 8.9</td>
+        </tr>
+        <tr>
+          <td>Overall, how does this instructor compare with other instructors at Fordham University?</td>
+          <td class="metric-cell">A: 7.2<br>M: 7</td>
+          <td class="metric-cell">A: 7.8<br>M: 8</td>
+          <td class="metric-cell">A: 8.45<br>M: 8.9</td>
+        </tr>
+        <tr class="meta-row">
+          <td>Number of respondents</td>
+          <td class="metric-cell">33</td>
+          <td class="metric-cell">33</td>
+          <td class="metric-cell">33</td>
+        </tr>
+        <tr class="meta-row">
+          <td>Number of students enrolled</td>
+          <td class="metric-cell">35</td>
+          <td class="metric-cell">34</td>
+          <td class="metric-cell">34</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="table-notes"><strong>Notes:</strong> <em>A</em> denotes the average and <em>M</em> denotes the median. Fall 2023 and Fall 2024 evaluations used Fordham University's former SEEQ instrument and a 1–9 scale. In Spring 2025, Fordham adopted the revised SES instrument, which uses a 1–5 scale and modified the language of the evaluation items. Spring 2025 statistics are approximate SEEQ-equivalent scores on a 1–9 scale, calculated using Fordham University's conversion guidance. Evaluation items are matched across instruments according to the corresponding pedagogical dimensions identified in that guidance.</p>
+
+  <p class="sub-label">Selected Student Feedback</p>
+
+  <h3 class="feedback-category">Engaging &amp; Dynamic Pedagogy</h3>
+  <div class="feedback-list">
+    <div class="quote-card">
+      &ldquo;I really liked her use of the whiteboard. It made the lectures engaging and her content on quizzes and tests coming directly from class notes really made note-taking a necessity. I found that the class went by fairly quick, but I took in a lot of information in that time and didn't walk away from a lecture feeling drowsy or bored.&rdquo;
+      <div class="quote-term">&mdash; Fall 2024</div>
+    </div>
+    <div class="quote-card">
+      &ldquo;I think the professor was extremely passionate and worked very well with questions from the class. I also think the lectures were engaging and the use of the whiteboard made difficult concepts easy to understand.&rdquo;
+      <div class="quote-term">&mdash; Fall 2024</div>
+    </div>
+    <div class="quote-card">
+      &ldquo;Professor Aakriti was a fantastic professor. Always made classes engaging and easy to digest.&rdquo;
+      <div class="quote-term">&mdash; Spring 2025</div>
+    </div>
+  </div>
+
+  <h3 class="feedback-category">Active Learning &amp; Applied Practice</h3>
+  <div class="feedback-list">
+    <div class="quote-card">
+      &ldquo;The aspects of this course that were most beneficial to my learning were the opportunity to attempt questions that would appear on homework assignments and quizzes/exams in class so that the whole class could learn the process and find common mistakes to prevent future ones.&rdquo;
+      <div class="quote-term">&mdash; Spring 2025</div>
+    </div>
+    <div class="quote-card">
+      &ldquo;Everything on the tests, quizzes, and homework was all thoroughly explained in class and on the class notes. I was never left confused or needing to look elsewhere to explain a topic.&rdquo;
+      <div class="quote-term">&mdash; Fall 2024</div>
+    </div>
+    <div class="quote-card">
+      &ldquo;I really enjoyed the group participation assignments; it was beneficial because I was able to learn from others.&rdquo;
+      <div class="quote-term">&mdash; Spring 2025</div>
+    </div>
+  </div>
+
+  <h3 class="feedback-category">Inclusive &amp; Supportive Environment</h3>
+  <div class="feedback-list">
+    <div class="quote-card">
+      &ldquo;You can tell that she really wants to make sure each and every one of her students understands the lesson, and she is so welcoming to questions if anyone has any sort of confusion.&rdquo;
+      <div class="quote-term">&mdash; Fall 2024</div>
+    </div>
+    <div class="quote-card">
+      &ldquo;I really appreciated her review sessions and her extra credit questions where we needed to go up to the board. Even though I never went up on the board, she made the class comfortable enough to know that it is okay if you got it wrong, but at least you tried.&rdquo;
+      <div class="quote-term">&mdash; Fall 2024</div>
     </div>
   </div>
 
 </div>
 
 <footer>
-  <p>&copy; 2025 Neha Betai &middot; George Washington University</p>
+  <p>&copy; 2026 Aakriti Saraswat &middot; Fordham University</p>
 </footer>
 </body>
 </html>
